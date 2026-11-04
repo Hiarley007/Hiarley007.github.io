@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfólio de Hiarley de Morais Rabêlo: projetos mobile, integrações e desenvolvimento de software."
+    />
+    <meta name="theme-color" content="#090e1c" />
+    <title>Hiarley de Morais Rabêlo — Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="header-inner shell">
+        <a class="brand" href="#inicio" aria-label="Hiarley, início">
+          <span class="brand-mark" aria-hidden="true">H<span>.</span></span>
+          <span class="brand-name">Hiarley<span>007</span></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Navegação principal">
+          <a href="#projetos">Projetos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#tecnologias">Tecnologias</a>
+          <a class="nav-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero shell" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow">
+            <span class="eyebrow-dot" aria-hidden="true"></span>
+            PORTFÓLIO <span class="eyebrow-slash">/</span> BRASÍLIA, DF
+          </p>
+          <h1 id="hero-title">Construindo produtos digitais <span>com propósito.</span></h1>
+          <p class="hero-intro">
+            Sou Hiarley de Morais Rabêlo, estudante do 4º semestre de Análise e
+            Desenvolvimento de Sistemas. Meu foco está em programação, projetos e estágio.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">
+              Conheça meus projetos <span aria-hidden="true">↓</span>
+            </a>
+            <a
+              class="text-link hero-link"
+              href="https://www.linkedin.com/in/hiarley-morais-bbb360352/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vamos nos conectar <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="hero-meta" aria-label="Áreas dos projetos em destaque">
+            <span>Mobile</span><span>Dados</span><span>Produto</span>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="portrait-glow" aria-hidden="true"></div>
+          <figure class="portrait-frame">
+            <img
+              src="hiarley-profile.jpeg"
+              alt="Retrato de Hiarley de Morais Rabêlo"
+              width="1254"
+              height="1254"
+              fetchpriority="high"
+            />
+            <figcaption><strong>Hiarley007</strong><span>ANÁLISE & DESENVOLVIMENTO DE SISTEMAS</span></figcaption>
+          </figure>
+          <span class="portrait-index" aria-hidden="true">H / 007</span>
+        </div>
+
+        <a class="hero-scroll" href="#projetos" aria-label="Rolar até os projetos">
+          <span></span> ROLE PARA EXPLORAR
+        </a>
+      </section>
+
+      <section class="projects-section section shell" id="projetos" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">01 <span>/</span> SELEÇÃO DE PROJETOS</p>
+            <h2 id="projects-title">Do conceito <span>ao código.</span></h2>
+          </div>
+          <a
+            class="text-link github-link"
+            href="https://github.com/Hiarley007"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver todos no GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-copy">
+              <div class="project-topline">
+                <span class="project-number">01</span>
+                <span class="project-kind">MOBILE <i>·</i> CORRIDA & BEM-ESTAR</span>
+              </div>
+              <h3>RotaFit</h3>
+              <p class="project-description">
+                Aplicativo de corrida e caminhada que registra rotas por GPS, distância,
+                duração e ritmo. Inclui histórico, resumo semanal e player conectado ao Spotify.
+              </p>
+              <ul class="tech-list" aria-label="Tecnologias do RotaFit">
+                <li>React Native</li><li>Expo</li><li>TypeScript</li><li>Supabase</li>
+              </ul>
+              <div class="project-actions">
+                <a
+                  class="button button-dark"
+                  href="https://github.com/Hiarley007/rotafit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Abrir o repositório RotaFit no GitHub"
+                >
+                  Repositório <span aria-hidden="true">↗</span>
+                </a>
+                <span class="no-demo">Sem demonstração pública linkada</span>
+              </div>
+            </div>
+            <div class="project-visual route-visual" aria-hidden="true">
+              <div class="visual-label"><span>ROTAS & RITMO</span><span>RF / 01</span></div>
+              <div class="route-map">
+                <div class="map-grid"></div>
+                <svg viewBox="0 0 460 260" role="presentation" focusable="false">
+                  <path class="route-shadow" d="M42 210 C92 210 74 145 133 154 S173 208 221 178 237 87 293 106 324 182 373 150 389 68 421 61" />
+                  <path class="route-line" d="M42 210 C92 210 74 145 133 154 S173 208 221 178 237 87 293 106 324 182 373 150 389 68 421 61" />
+                  <circle class="route-start" cx="42" cy="210" r="8" />
+                  <circle class="route-end" cx="421" cy="61" r="10" />
+                </svg>
+                <span class="map-pin pin-one">GPS</span>
+                <span class="map-pin pin-two">▶</span>
+              </div>
+              <div class="visual-footer"><span>EM MOVIMENTO</span><span class="visual-spark">✳</span></div>
+            </div>
+          </article>
+
+          <article class="project-card project-market">
+            <div class="project-topline">
+              <span class="project-number">02</span>
+              <span class="project-kind">MOBILE <i>·</i> COMÉRCIO</span>
+            </div>
+            <div class="market-visual" aria-hidden="true">
+              <div class="market-stamp">M<br /><span>GO</span></div>
+              <div class="market-flow">
+                <div class="flow-step"><span>01</span><b>Catálogo</b><i>✓</i></div>
+                <div class="flow-step"><span>02</span><b>Carrinho</b><i>✓</i></div>
+                <div class="flow-step flow-current"><span>03</span><b>Pedido</b><i>↗</i></div>
+              </div>
+              <div class="market-orbit"></div>
+            </div>
+            <h3>MarketGo</h3>
+            <p class="project-description">
+              Fluxo demonstrativo de compras com catálogo de lojas, carrinho, checkout e
+              acompanhamento de pedidos. O banco calcula os totais e valida as regras do pedido.
+            </p>
+            <p class="project-note">Pagamento e avanço do pedido são simulados.</p>
+            <ul class="tech-list" aria-label="Tecnologias do MarketGo">
+              <li>React Native</li><li>Expo</li><li>TypeScript</li><li>PostgreSQL</li>
+            </ul>
+            <div class="project-actions">
+              <a
+                class="button button-dark"
+                href="https://github.com/Hiarley007/marketgo"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir o repositório MarketGo no GitHub"
+              >
+                Repositório <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                class="button button-outline"
+                href="https://marketgo-omega.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir a demonstração do MarketGo"
+              >
+                Demonstração <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card project-fintrack">
+            <div class="project-topline">
+              <span class="project-number">03</span>
+              <span class="project-kind">MOBILE <i>·</i> FINANÇAS</span>
+            </div>
+            <div class="finance-visual" aria-hidden="true">
+              <div class="finance-heading"><span>VISÃO MENSAL</span><span>↗</span></div>
+              <div class="finance-content">
+                <div class="donut-wrap"><div class="donut"><span></span></div><i class="donut-dot"></i></div>
+                <div class="finance-legend">
+                  <div><i class="legend-income"></i><span>Receitas</span></div>
+                  <div><i class="legend-expense"></i><span>Despesas</span></div>
+                  <div><i class="legend-balance"></i><span>Saldo</span></div>
+                </div>
+              </div>
+              <div class="finance-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <h3>FinTrack</h3>
+            <p class="project-description">
+              Aplicativo de finanças pessoais para registrar receitas e despesas, acompanhar
+              o resumo mensal e importar movimentações bancárias com autorização via Pluggy.
+            </p>
+            <p class="project-note">Integração Open Finance somente para leitura.</p>
+            <ul class="tech-list" aria-label="Tecnologias do FinTrack">
+              <li>React Native</li><li>Expo</li><li>TypeScript</li><li>Supabase</li><li>Pluggy</li>
+            </ul>
+            <div class="project-actions">
+              <a
+                class="button button-dark"
+                href="https://github.com/Hiarley007/fintrack"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir o repositório FinTrack no GitHub"
+              >
+                Repositório <span aria-hidden="true">↗</span>
+              </a>
+              <span class="no-demo">Sem demonstração pública linkada</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-section section shell" id="sobre" aria-labelledby="about-title">
+        <div class="about-marker" aria-hidden="true"><span>H</span><i></i><i></i><i></i></div>
+        <div class="about-copy">
+          <p class="section-kicker">02 <span>/</span> SOBRE MIM</p>
+          <h2 id="about-title">Aprender é bom.<br /><span>Construir também.</span></h2>
+          <p>
+            Estou no 4º semestre de Análise e Desenvolvimento de Sistemas e moro em Brasília.
+            Tenho focado meus estudos em programação e projetos, com interesse em oportunidades
+            de estágio.
+          </p>
+          <p>
+            Nos projetos em destaque, exploro desenvolvimento mobile, integração com serviços,
+            persistência de dados e regras de negócio.
+          </p>
+        </div>
+        <div class="about-facts" aria-label="Informações públicas do perfil">
+          <div class="fact"><span>FORMAÇÃO</span><strong>Análise e Desenvolvimento<br />de Sistemas</strong></div>
+          <div class="fact"><span>MOMENTO</span><strong>4º semestre</strong></div>
+          <div class="fact"><span>LOCALIZAÇÃO</span><strong>Brasília, DF</strong></div>
+          <div class="fact fact-focus"><span>FOCO</span><strong>Programação · projetos · estágio</strong></div>
+        </div>
+      </section>
+
+      <section class="tech-section section shell" id="tecnologias" aria-labelledby="tech-title">
+        <div class="tech-heading">
+          <p class="section-kicker">03 <span>/</span> FERRAMENTAS DO PROCESSO</p>
+          <h2 id="tech-title">Tecnologias que <span>uso.</span></h2>
+          <p>Stack dos projetos destacados e foco atual de estudo.</p>
+        </div>
+        <div class="tech-groups">
+          <div class="tech-group">
+            <span class="tech-index">01 / MOBILE</span>
+            <div class="tech-pills"><span>React Native</span><span>Expo</span><span>Expo Router</span></div>
+          </div>
+          <div class="tech-group">
+            <span class="tech-index">02 / LINGUAGENS</span>
+            <div class="tech-pills"><span>TypeScript</span><span>JavaScript</span></div>
+          </div>
+          <div class="tech-group">
+            <span class="tech-index">03 / DADOS & SERVIÇOS</span>
+            <div class="tech-pills"><span>Supabase</span><span>PostgreSQL</span><span>TanStack Query</span></div>
+          </div>
+          <div class="tech-group">
+            <span class="tech-index">04 / QUALIDADE & INTEGRAÇÕES</span>
+            <div class="tech-pills"><span>Jest</span><span>PGlite</span><span>Pluggy</span><span>Spotify API</span></div>
+          </div>
+          <div class="tech-group">
+            <span class="tech-index">05 / ESTUDO ATUAL</span>
+            <div class="tech-pills"><span>Python</span><span>Machine Learning</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section shell" id="contato" aria-labelledby="contact-title">
+        <div class="contact-topline"><span>04 / CONTATO</span><span>BRASÍLIA, BR</span></div>
+        <div class="contact-content">
+          <div>
+            <p class="contact-kicker">UMA IDEIA, UM PROJETO, UMA CONVERSA.</p>
+            <h2 id="contact-title">Vamos criar<br /><span>algo útil?</span></h2>
+          </div>
+          <div class="contact-links">
+            <a
+              class="contact-button"
+              href="https://www.linkedin.com/in/hiarley-morais-bbb360352/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn <span aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="contact-secondary"
+              href="https://github.com/Hiarley007"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub <span aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="contact-secondary"
+              href="https://www.instagram.com/hiarley.18/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <a class="brand footer-brand" href="#inicio" aria-label="Voltar ao início — Hiarley007">
+        <span class="brand-mark" aria-hidden="true">H<span>.</span></span>
+        <span class="brand-name">Hiarley<span>007</span></span>
+      </a>
+      <p>Feito com intenção e café.</p>
+      <a class="back-top" href="#inicio">VOLTAR AO TOPO <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>
