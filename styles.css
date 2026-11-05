@@ -1968,6 +1968,7 @@ body {
 .tech-groups { gap: 10px; }
 
 .tech-group {
+  align-content: start;
   gap: 13px;
   padding: 18px;
   border: 1px solid rgb(173 194 239 / 14%);
@@ -1979,19 +1980,25 @@ body {
 .tech-group:first-child { border-top: 1px solid rgb(173 194 239 / 14%); }
 
 .tech-index {
+  align-self: start;
   color: #b7c7e5;
   font-size: 9px;
+  line-height: 1.2;
   letter-spacing: 0.1em;
 }
 
-.tech-pills { gap: 8px; }
+.tech-pills {
+  align-content: start;
+  align-self: start;
+  gap: 8px;
+}
 
 .tech-pills span {
   display: inline-flex;
-  min-height: 32px;
+  min-height: 40px;
   align-items: center;
   justify-content: center;
-  padding: 7px 12px;
+  padding: 9px 13px;
   border-color: rgb(178 200 244 / 20%);
   background: rgb(255 255 255 / 4%);
   color: #e0e8fa;
