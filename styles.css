@@ -1987,17 +1987,17 @@ body {
 .tech-pills { gap: 8px; }
 
 .tech-pills span {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 12px;
   border-color: rgb(178 200 244 / 20%);
   background: rgb(255 255 255 / 4%);
   color: #e0e8fa;
   font-size: 10px;
-  transition: border-color 180ms ease, background 180ms ease, transform 180ms ease;
-}
-
-.tech-pills span:hover {
-  border-color: rgb(118 239 255 / 50%);
-  background: rgb(118 239 255 / 8%);
-  transform: translateY(-2px);
+  line-height: 1.2;
+  white-space: nowrap;
 }
 
 .contact-section {
