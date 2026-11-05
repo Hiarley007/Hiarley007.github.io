@@ -4,6 +4,8 @@ Website estático e responsivo, feito com HTML, CSS e JavaScript sem dependênci
 
 A identidade visual usa fundo escuro, azul, ciano e violeta. Heróis com brilho ambiente, cartões em vidro, bento grid e botões luminosos foram adaptados a partir de referências do 21st.dev mantendo HTML, CSS e JavaScript estáticos. A marca é exibida como **Hiarley007**. O retrato enviado pelo proprietário está em `hiarley-profile.jpeg`.
 
+Os cards de projeto respondem ao ponteiro com inclinação 3D leve e brilho localizado. O efeito é limitado a dispositivos com ponteiro fino e respeita a preferência por movimento reduzido.
+
 ## Conteúdo confirmado
 
 - O perfil público descreve Hiarley de Morais Rabêlo como estudante de Análise e Desenvolvimento de Sistemas no 4º semestre, com foco em programação, projetos e estágio, em Brasília, DF.
@@ -25,3 +27,4 @@ A identidade visual usa fundo escuro, azul, ciano e violeta. Heróis com brilho 
 - `styles.css`: identidade visual e layouts responsivos.
 - `script.js`: menu de navegação móvel acessível por teclado.
 - `hiarley-profile.jpeg`: retrato fornecido para o destaque inicial.
+

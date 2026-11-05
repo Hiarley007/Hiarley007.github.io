@@ -1776,7 +1776,11 @@ body {
   z-index: -1;
   inset: 0;
   border-radius: inherit;
-  background: radial-gradient(circle at 82% 12%, rgb(118 239 255 / 12%), transparent 38%);
+  background: radial-gradient(
+    440px circle at var(--spot-x, 82%) var(--spot-y, 12%),
+    rgb(118 239 255 / 14%),
+    transparent 46%
+  );
   content: "";
   opacity: 0;
   transition: opacity 240ms ease;
@@ -2126,3 +2130,41 @@ body {
   .tech-pills span:hover,
   .nav-contact:hover { transform: none; }
 }
+
+/* Pointer-driven spotlight and gentle 3D tilt for project cards. */
+@media (hover: hover) and (pointer: fine) {
+  .project-card { transform-style: preserve-3d; }
+
+  .project-card.is-tilting {
+    transform:
+      perspective(1200px)
+      rotateX(var(--tilt-x, 0deg))
+      rotateY(var(--tilt-y, 0deg))
+      translateY(-5px);
+    will-change: transform;
+  }
+
+  .project-card.is-tilting .project-copy { transform: translateZ(16px); }
+  .project-card.is-tilting .project-visual { transform: translateZ(8px); }
+}
+
+@media (hover: none) {
+  .project-card:hover {
+    border-color: transparent;
+    box-shadow: 0 18px 50px rgb(0 0 0 / 23%), inset 0 1px rgb(255 255 255 / 3%);
+    transform: none;
+  }
+
+  .project-card:hover::before { opacity: 0; }
+  .project-card:hover::after { left: -65%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card:hover,
+  .project-card.is-tilting,
+  .project-card.is-tilting .project-copy,
+  .project-card.is-tilting .project-visual { transform: none; }
+
+  .project-card::after { display: none; }
+}
+
