@@ -1965,7 +1965,10 @@ body {
 
 .tech-section { border-top-color: rgb(173 194 239 / 15%); }
 
-.tech-groups { gap: 10px; }
+.tech-groups {
+  grid-auto-rows: minmax(8rem, 1fr);
+  gap: 10px;
+}
 
 .tech-group {
   align-content: center;
