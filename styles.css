@@ -1968,7 +1968,7 @@ body {
 .tech-groups { gap: 10px; }
 
 .tech-group {
-  align-content: start;
+  align-content: center;
   gap: 13px;
   padding: 18px;
   border: 1px solid rgb(173 194 239 / 14%);
